@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fight {
+    display: flex;
+    gap: 10px;
+}
+
+#char,
+#monster {
+    width: 100vw;
+}
+
+.lifebar {
+    width: 90%;
+    height: 15px;
+    border: 1px solid #343434;
+    border-radius: 5px;
+}
+
+.lifebar .bar {
+    height: inherit;
+    background-color: red;
+}
+
+.log {
+    margin-top: 200px;
+    height: 200px;
+    border: 1px dashed #c3c3c3;
+    overflow-y: scroll;
+}
+
