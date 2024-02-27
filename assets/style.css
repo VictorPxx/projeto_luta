@@ -1,29 +1,29 @@
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .fight {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 #char,
 #monster {
-    width: 100vw;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .lifebar {
-    width: 90%;
-    height: 15px;
+    height: 17px;
     border: 1px solid #343434;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .lifebar .bar {
     height: inherit;
     background-color: red;
+    
+}
+
+.fight__button {
+    width: 8%;
 }
 
 .log {
@@ -31,5 +31,10 @@ body {
     height: 200px;
     border: 1px dashed #c3c3c3;
     overflow-y: scroll;
+}
+
+.hp{
+    font-weight: bold;
+
 }
 

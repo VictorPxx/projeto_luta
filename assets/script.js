@@ -1,5 +1,14 @@
-let player1 = new Sorcerer ('Pixoxó');
-let player2 = new BigMonster();
+let log = new Log(document.querySelector('.log'));
 
-console.log(player1);
-console.log(player2);
+let char = new Sorcerer ('Pixoxó');
+let monster = new BigMonster();
+
+const stage = new Stage (
+    char,
+    monster,
+    document.querySelector('#char'),
+    document.querySelector('#monster'),
+    log
+)
+
+stage.start();
