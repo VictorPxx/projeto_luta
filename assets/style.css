@@ -23,7 +23,7 @@
 }
 
 .fight__button {
-    width: 8%;
+    width: 5em;
 }
 
 .log {
@@ -35,6 +35,5 @@
 
 .hp{
     font-weight: bold;
-
 }
 
